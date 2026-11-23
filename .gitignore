@@ -1,0 +1,48 @@
+# Build output
+/build/
+/out/
+/dist/
+/generated/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Retail and decrypted game material
+/retail/
+/original/
+/game/
+/dump/
+/extracted/
+/decrypted/
+*.pkg
+*.pup
+*.self
+*.sprx
+*.prx
+*.elf
+*.bin
+*.iso
+*.xex
+*.xexp
+
+# Locally generated translation artifacts
+ppc_*.cpp
+ppc_*.h
+recompiled_*.cpp
+recompiled_*.h
+
+# Tooling and editor state
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.VC.db
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
